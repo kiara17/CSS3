@@ -1,0 +1,34 @@
+/*
+SELECTORES
+	UNIVERSAL(*)
+	ETIQUETA
+	CLASE(clasificar elementos=  .estilo1)
+	ID(NO SE RECOMIENDA,se utiliza para prograar mas q todo.
+	EL NOMBRE DEL ID DEBE SER UNICO) SE USA EL "#"
+*/
+
+#parrafo{
+	color:black;
+}
+
+#link{
+	color:green;
+}
+
+.estilo1{ 
+	color:pink;
+	text-transform:uppercase;
+	text-decoration: underline;
+	text-shadow: 1px 1px 1px violet;
+}
+*{
+	color:purple;
+	}
+
+.estilo2{
+	color:black;
+	text-transform:outline;
+	text-decoration: none;
+	text-shadow: 1px 2px 3px green;
+}
+
